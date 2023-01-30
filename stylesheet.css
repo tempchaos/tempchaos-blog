@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document*/
+body {
+  width: 100%; /* Set the width of the content */
+  margin: 0 auto;
+  font-family: Arial, sans-serif; /* Set the font for the entire website */
+  font-size: 20px; /* Set the base font size */
+  color: #000000; /* Set the text color */
+  background-color: #ffffff; /* Set the background color */
+}
+header {
+  width: 100%;
+  color: #ffffff;
+  background-color: #000000;
+}
+.header-container {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+      margin-bottom: 50px; /* Add some space below headings */
+
+}
+.header-left h1 {}
+.header-right a {
+  margin-left: 20px;
+}
+footer {
+  margin-top: 50px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #000000;
+}
+.footer-container {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-right a {
+  margin-left: 20px; /* fügt 10px Abstand zwischen den links*/
+}
+h1 {
+  line-height: 1;
+  font-size: 50px; /* Increase the font size for headings */
+  margin-bottom: 20px; /* Add some space below headings */
+}
+h2 {
+  line-height: 1;
+  font-size: 40px; /* Increase the font size for headings */
+  margin-bottom: 20px; /* Add some space below headings */
+}
+p {
+  line-height: 1.5; /* Increase the line height for paragraphs */
+  margin-bottom: 20px; /* Add some space below paragraphs */
+}
+.content {
+  width: 75%;
+  margin: 0 auto; /* Center the content on the screen */
+  text-align: left; /* Center the text within the content */
+}
+.indexContent {
+  width: 75%;
+  margin: 0 auto; /* Center the content on the screen */
+  text-align: left; /* Center the text within the content */
+}
+/*Zwei Spalten */
+.container {
+  width: 75%;
+  display: flex;
+  margin: 0 auto; /* Center the content on the screen */
+  text-align: left; /* Center the text within the content */
+}
+.column1, .column2 {
+  border-color: #000000;
+  border-width: 1px;
+  border: 1;
+  margin-right: 40px;
+  width: 50%; /* Breite der Spalten */
+}
+/* Für kleine Bildschirme */
+@media (max-width: 1024px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .column1, .column2 {
+    width: 100%; /* Breite der Spalten */
+    margin-bottom: 40px;
+  }
+}
+/* Links und Farben Allgemein */
+a, a:active {
+  color: black; /* standard Farbe für Links */
+}
+a:hover {
+  color: #888888; /* Farbe für Hover-Effekt */
+}
+/* Links und Farben im Header & Footer */
+header a, footer a {
+  color: white; /* standard Farbe für Links */
+}
+header a, footer a:active {
+  color: white; /* Farbe für gedrückten Link */
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-color: black;
+}
+
+#myButton {
+    font-family: Arial, sans-serif; /* Set the font for the entire website */
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border:solid;
+    border-color: black;
+    border-radius: 1px;
+}
+
+#myButton:hover {
+    font-family: Arial, sans-serif; /* Set the font for the entire website */
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border:solid;
+    border-color: black;
+    border-radius: 1px;
+}
