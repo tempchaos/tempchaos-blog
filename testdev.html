@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .header,
+      .footer {
+        background-color: lightgray;
+        padding: 1rem;
+        text-align: center;
+      }
+      .header h1,
+      .footer h2 {
+        margin: 0;
+      }
+      .main {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .main-col {
+        flex: 1;
+        padding: 1rem;
+      }
+      @media (max-width: 767px) {
+        .main {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Responsive Website</h1>
+    </div>
+    <div class="container">
+      <div class="main">
+        <div class="main-col">
+          <h2>Spalte 1</h2>
+          <p>Inhalt für Spalte 1</p>
+        </div>
+        <div class="main-col">
+          <h2>Spalte 2</h2>
+          <p>Inhalt für Spalte 2</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h2>Footer</h2>
+    </div>
+  </body>
+</html>
