@@ -4,7 +4,7 @@ body {
   width: 100%; /* Set the width of the content */
   margin: 0 auto;
   font-family: Arial, sans-serif; /* Set the font for the entire website */
-  font-size: 20px; /* Set the base font size */
+  text-align: left;
   color: #000000; /* Set the text color */
   background-color: #ffffff; /* Set the background color */
 }
@@ -19,12 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-      margin-bottom: 50px; /* Add some space below headings */
-
-}
-.header-left h1 {}
-.header-right a {
-  margin-left: 20px;
+  margin-bottom: 50px; /* Add some space below headings */
 }
 footer {
   margin-top: 50px;
@@ -44,12 +39,10 @@ footer {
 }
 h1 {
   line-height: 1;
-  font-size: 50px; /* Increase the font size for headings */
   margin-bottom: 20px; /* Add some space below headings */
 }
 h2 {
   line-height: 1;
-  font-size: 40px; /* Increase the font size for headings */
   margin-bottom: 20px; /* Add some space below headings */
 }
 p {
@@ -59,12 +52,6 @@ p {
 .content {
   width: 75%;
   margin: 0 auto; /* Center the content on the screen */
-  text-align: left; /* Center the text within the content */
-}
-.indexContent {
-  width: 75%;
-  margin: 0 auto; /* Center the content on the screen */
-  text-align: left; /* Center the text within the content */
 }
 /*Zwei Spalten */
 .container {
@@ -81,12 +68,12 @@ p {
   width: 50%; /* Breite der Spalten */
 }
 /* Für kleine Bildschirme */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     flex-wrap: wrap;
   }
   .column1, .column2 {
-    width: 100%; /* Breite der Spalten */
+    width: 100%;
     margin-bottom: 40px;
   }
 }
@@ -104,30 +91,25 @@ header a, footer a {
 header a, footer a:active {
   color: white; /* Farbe für gedrückten Link */
 }
+/*Lines Index*/
 hr {
   border: 0;
   height: 1px;
   background-color: black;
 }
-
 #myButton {
-    font-family: Arial, sans-serif; /* Set the font for the entire website */
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border:solid;
-    border-color: black;
-    border-radius: 1px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: solid;
+  border-color: black;
+  border-radius: 1px;
 }
-
 #myButton:hover {
-    font-family: Arial, sans-serif; /* Set the font for the entire website */
-    font-size: 20px;
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
-    border:solid;
-    border-color: black;
-    border-radius: 1px;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: solid;
+  border-color: black;
+  border-radius: 1px;
 }
