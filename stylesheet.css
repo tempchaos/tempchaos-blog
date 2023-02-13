@@ -4,6 +4,7 @@ body {
   width: 100%; /* Set the width of the content */
   margin: 0 auto;
   font-family: Arial, sans-serif; /* Set the font for the entire website */
+  font-size: 18px;
   text-align: left;
   color: #000000; /* Set the text color */
   background-color: #ffffff; /* Set the background color */
@@ -38,14 +39,17 @@ footer {
   margin-left: 20px; /* fügt 10px Abstand zwischen den links*/
 }
 h1 {
+  font-size: 36px;
   line-height: 1;
   margin-bottom: 20px; /* Add some space below headings */
 }
 h2 {
+  font-size: 36px;
   line-height: 1;
   margin-bottom: 20px; /* Add some space below headings */
 }
 p {
+  font-size: 18px;
   line-height: 1.5; /* Increase the line height for paragraphs */
   margin-bottom: 20px; /* Add some space below paragraphs */
 }
@@ -98,6 +102,7 @@ hr {
   background-color: black;
 }
 #myButton {
+  font-size: 18px;
   background-color: black;
   color: white;
   padding: 10px 20px;
@@ -106,6 +111,7 @@ hr {
   border-radius: 1px;
 }
 #myButton:hover {
+  font-size: 18px;
   background-color: white;
   color: black;
   padding: 10px 20px;
